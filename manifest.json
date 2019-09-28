@@ -1,0 +1,27 @@
+{
+    "name":"Contador",
+    "version":"1.0",
+    "description":"Contador de abas do Google Chrome",
+    "browser_action":{
+        "default_popup":"index.html"
+    },
+
+    "background": {
+        "scripts": ["magica.js"],
+        "persistent": false
+    },
+    
+    "permissions": [
+        "tabs",
+        "storage"
+    ],
+
+    "icons": {
+        "16": "mono.png", 
+        "32": "mono.png", 
+        "48": "mono.png", 
+        "128": "mono.png"
+    },
+    
+    "manifest_version":2
+}
