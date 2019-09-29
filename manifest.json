@@ -13,8 +13,12 @@
     
     "permissions": [
         "tabs",
-        "storage"
+        "storage",
+        "declarativeContent",
+        "activeTab"
     ],
+    
+    "options_page": "options.html",
 
     "icons": {
         "16": "mono.png", 
